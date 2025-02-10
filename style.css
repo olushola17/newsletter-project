@@ -152,13 +152,14 @@ body {
 
 @media (max-width: 768px) {
     .signup-container {
-        max-width: 45%;
+        max-width: 100%;
         width: 768px;
         display: grid;
         grid-template-columns: 1fr;
         justify-content: center;
         grid-auto-flow: dense;
-        padding: 0px 10px 20px 10px;
+        padding: 0px 0px 20px 0px;
+        margin: 40px auto;
         overflow: hidden;
     }
 
@@ -171,7 +172,16 @@ body {
     }
 
     .signup-left {
-        padding: 0px 20px;
+        max-width: 768px;
+        height: 400px;
+        justify-content: center;
+        /* background-color: aqua; */
+        /* padding: 0px 200px; */
+        font-size: 1rem;
+    }
+
+    .signup-right {
+        max-width: 768px;
     }
 
     .hero-desktop {
@@ -180,6 +190,7 @@ body {
 
     .hero-mobile {
         display: block;
+        width: 768px;
     }
 
     .signup-list {
@@ -187,12 +198,12 @@ body {
     }
 
     .success-container {
-        max-width: 30%;
+        max-width: 100%;
         width: 768px;
         height: 600px;
         justify-content: space-around;
         gap: 0px;
-        padding: 0px 40px 0px 40px;
+        padding: 0px 80px 0px 80px;
     }
 
     .success-container img {
